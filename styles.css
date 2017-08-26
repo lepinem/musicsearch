@@ -1,0 +1,139 @@
+body {
+  background-color: #aaabb2;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font: trebuchet;
+}
+
+div{
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  /*border: 1px black solid;*/
+
+}
+
+h1{
+  text-align: center;
+
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+audio{
+  /*border: 1px green solid;*/
+  width: 90%;
+  margin: 10px;
+
+}
+
+input{
+  /*border: 1px red solid;*/
+  height: 35px;
+  width: 525px;
+  font-size: 30px;
+  text-align: right;
+
+}
+
+button{
+  /*border: 1px yellow solid;*/
+  height: 35px;
+  width: 100px;
+  margin: 5px;
+  font-size: 25px;
+  border-radius: 10px;
+
+}
+
+hr{
+  width: 98%;
+
+}
+
+span{
+
+  width: 100%;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+
+}
+
+.container{
+  height: auto;
+  width: 750px;
+  flex-direction: column;
+
+}
+
+.player{
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.search{
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-around;
+
+}
+
+#searchJam{
+  border-radius: 3px;
+
+
+}
+
+#submit{
+
+
+}
+
+.results{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.jamBox{
+  /*margin: auto;*/
+  height: 200px;
+  width: 150px;
+  flex-direction: column;
+
+}
+
+.coverArt{
+  justify-content: center;
+  align-items: center;
+
+}
+
+.jamWords{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+
+}
+
+a{
+  font-size: 12px;
+}
